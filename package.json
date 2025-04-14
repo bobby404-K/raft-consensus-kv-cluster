@@ -1,0 +1,11 @@
+{
+  "name": "raft-consensus-kv-cluster",
+  "version": "2.4.0",
+  "description": "Distributed Raft Consensus Algorithm and KV state machine in TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  }
+}
